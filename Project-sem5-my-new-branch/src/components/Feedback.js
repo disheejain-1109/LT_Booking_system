@@ -40,7 +40,7 @@ const [useModal,setUseModal] = useState(false);
    </div>
     </div>
     <footer>
-        <div className="develop"><p> Developed by - Dishee Jain(21UEC047) &nbsp; &nbsp;  |&nbsp; Sanskriti Goyal (21UEC116) &nbsp;&nbsp; | &nbsp;  Naman Gupta(21UME033)</p>
+        <div className="develop"><p> Developed by - Dishee Jain(21UEC047) &nbsp; </p>
         <p> Copyright &copy; LNMIIT | All Rights Reserved </p></div>
     </footer>
     </>
