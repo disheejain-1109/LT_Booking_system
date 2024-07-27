@@ -1,0 +1,40 @@
+.legend{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        justify-content: center;
+        text-align: center;
+        border: none;
+        width: 60%;
+}
+.l{
+    background-color: grey ;
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 200px;
+    padding-left: 30px;
+}
+.na{
+    background-color: rgb(255, 75, 75);
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+    padding-right: 90px;
+}
+.e{
+    color: black;
+    background-color: rgb(59, 250, 59);
+    font-style: italic;
+    font-weight: 600;
+    padding-right: 90px;
+    padding-left: 20px;
+}
+.p{
+   color: black;
+   background-color: rgb(246, 246, 91);
+   font-weight: 600;
+   font-style: italic;
+    padding-right: 90px;
+
+}

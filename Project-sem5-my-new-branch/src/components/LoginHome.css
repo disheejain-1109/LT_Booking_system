@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+.bg{
+  background-image: url("https://images.collegedunia.com/public/college_data/images/campusimage/1626776066Drone1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  opacity: 0.9;
+
+}
+
+.dark{
+  font-weight: bolder;
+  color: black
+
+}
+
+.login_container{
+  display: flex;
+  gap:400px;
+  
+}
+
+#login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.text{
+  color: red;
+  /* border: 2px solid red; */
+  /* margin: px; */
+  /* font-weight: 900; */
+  margin-top: 10px;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: rgb(86, 2, 2);
+ /* animation: typedjsBlink 0.7s infinite; */
+  /* padding: 8px; */
+
+}
+#text1{
+ 
+  font-size: 60px;
+ 
+}
+#text2{
+ 
+  font-size: 30px;
+  font-size: 30px;
+  border-right: 2px solid red;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(17,end),
+  cursor .4s infinite;
+}
+
+  /* margin: 3px;
+}
+/* #slide{
+  font-size: 30px;
+  
+  border-right: 2px solid red;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(17) infinite,
+  cursor .4s infinite;
+
+} */
+@keyframes cursor{
+  50%{
+   border-color: transparent;
+  }
+}
+@keyframes typing{
+  from{
+   width: 0;
+  }
+  to { width: 100% }
+}
+#text3{
+ 
+  font-size: 20px;
+  margin: 3px;
+ } 
+#logoFront{
+  /* filter: brightness(50%); */
+  width: 180px;
+  /* opacity: 1; */
+  
+}
+#leftText{
+  margin: 53px;
+  /* padding: 2px; */
+}
+#signIn{
+  /* margin: 250px 150px 250px 10px;
+  /* border: 2px solid red; */
+  padding: 3px; 
+  display: block;
+  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  border: 2px solid black;
+  margin: 180px 200px 180px 10px;
+  width: 359px;
+  padding: 50px;
+  background-color:white;
+ 
+  /* background-color: color-mix(in srgb, #34c9eb 20%, white); */
+  
+}
+
+#login{
+  /* border: 2px solid green; */
+  /* padding: 2px; */
+  font-size: 30px;
+  color: black;
+}
+#google{
+  width: 40px;
+}
+#sign{
+  /* border: 2px solid red; */
+  padding: 8px;
+  margin: 25px 5px;
+  font-weight: bold;
+  /* border: 2.5px solid red; 
+  */
+  border-radius: 5px;
+  /* background-color: ; */
+}
+#icon{
+  width: 80px;
+  margin: auto;
+padding: 1px;
+/* background-color: rgb(225, 197, 197); */
+/* border: 2px solid rgb(0, 0, 0); */
+margin: 20px 20px 12px 20px;
+padding: 12px;
+
+}
+
+.log{
+  opacity: 0.8;
+  
+ background-color:  rgb(98, 12, 38);
+}
